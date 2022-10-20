@@ -1,9 +1,19 @@
 .container-home-fluid {
     width: 100%;
 }
+.carousel {
+    height: 400px;
+}
+.carousel-inner {
+    height: 100%;
+}
 .principalHome {
-    height: 749px;
+    height: 400px;
     position: relative;
+}
+.principalHome .container {
+    position: relative;
+    height: 100%;
 }
 .degradeBackground {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40.39%, rgba(0, 0, 0, 0.3) 67.4%), #D9D9D9;
@@ -15,9 +25,45 @@
 .titulo-principal {
     font-weight: 600;
     color: #fff;
-    font-size: 36px;
+    font-size: 24px;
     position: absolute;
-    left: 40px;
-    bottom: 40px;
-    line-height: 46px;
+    left: 0;
+    bottom: 30px;
+    line-height: 24px;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+    to {
+        -webkit-transform: scale(1.5, 1.5);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+  
+.carousel-inner .carousel-item > img {
+    -webkit-animation: zoom 20s;
+    animation: zoom 20s;
+}
+.secundarioHome {
+    margin-top: 15px;
+}
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box {
+    width: 32.5%;
+    background: red;
+    height: 100px;
 }
