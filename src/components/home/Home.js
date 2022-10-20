@@ -45,7 +45,7 @@ const Home = () => {
             </div>
             <div className="secundarioHome">
                 <div className="flexbox">
-                    <div className="box">Nosotros</div>
+                    <div className="box">Somos</div>
                     <div className="box">Proyectos</div>
                     <div className="box">Novedades</div>
                 </div>
