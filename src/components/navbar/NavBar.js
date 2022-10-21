@@ -16,8 +16,8 @@ const NavBar = () => {
                                 <li>Proyectos</li>
                                 <li>Novedades</li>
                                 <li>Contacto</li>
-                                <li><i className="fab fa-linkedin"></i></li>
                             </ul>
+                            <i className="fab fa-linkedin"></i>
                         </nav>
                     </div>
                 </div>
