@@ -12,7 +12,7 @@ const NavBar = () => {
                         </div>
                         <nav>
                             <ul>
-                                <li>Nosotros</li>
+                                <li><Link to='/nosotros'>Nosotros</Link></li>
                                 <li>Proyectos</li>
                                 <li>Novedades</li>
                                 <li>Contacto</li>

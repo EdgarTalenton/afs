@@ -3,3 +3,10 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+a, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.padd-global {
+  padding: 0px 80px;
+}
