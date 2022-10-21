@@ -23,3 +23,8 @@ nav ul li {
 .fa-linkedin {
     font-size: 24px;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
