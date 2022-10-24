@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/afs/static/css/main.3972a6a1.css",
-    "main.js": "/afs/static/js/main.65cb004b.js",
+    "main.css": "/afs/static/css/main.fc489064.css",
+    "main.js": "/afs/static/js/main.3afd5ada.js",
     "static/js/787.28cb0dcd.chunk.js": "/afs/static/js/787.28cb0dcd.chunk.js",
     "static/media/boton2.png": "/afs/static/media/boton2.77076b6018698cad62b7.png",
     "static/media/1-UP-San-Martin-S.jpg": "/afs/static/media/1-UP-San-Martin-S.fc9c8460f5f702102061.jpg",
@@ -13,13 +13,14 @@
     "static/media/5-ALCLA-Internacion-S.jpg": "/afs/static/media/5-ALCLA-Internacion-S.b73376a769947d4017e6.jpg",
     "static/media/boton1.jpeg": "/afs/static/media/boton1.9c35b7bee01593a38ae9.jpeg",
     "static/media/boton3.jpeg": "/afs/static/media/boton3.1efe23ebe8536be32b3a.jpeg",
+    "static/media/consultores.png": "/afs/static/media/consultores.02899a90b13c9f10452a.png",
     "index.html": "/afs/index.html",
-    "main.3972a6a1.css.map": "/afs/static/css/main.3972a6a1.css.map",
-    "main.65cb004b.js.map": "/afs/static/js/main.65cb004b.js.map",
+    "main.fc489064.css.map": "/afs/static/css/main.fc489064.css.map",
+    "main.3afd5ada.js.map": "/afs/static/js/main.3afd5ada.js.map",
     "787.28cb0dcd.chunk.js.map": "/afs/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3972a6a1.css",
-    "static/js/main.65cb004b.js"
+    "static/css/main.fc489064.css",
+    "static/js/main.3afd5ada.js"
   ]
 }
