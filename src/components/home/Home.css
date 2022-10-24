@@ -42,10 +42,12 @@
         transform: scale(1.5, 1.5);
     }
 }
-  
 .carousel-inner .carousel-item > img {
     -webkit-animation: zoom 20s;
     animation: zoom 20s;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
 }
 .secundarioHome {
     margin-top: 15px;
@@ -70,6 +72,7 @@
     mix-blend-mode: multiply;
 }
 .box p {
+    font-size: 18px;
     color: #fff;
     position: relative;
     align-self: flex-end;
