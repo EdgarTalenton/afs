@@ -8,7 +8,7 @@ const NavBar = () => {
                 <div className="container">
                     <div className="flexbox">
                         <div className="logo">
-                            <Link to='/'><img src={logo} alt="AFS Arquitectos" width="220" /></Link>
+                            <Link to='/afs'><img src={logo} alt="AFS Arquitectos" width="220" /></Link>
                         </div>
                         <nav>
                             <ul>

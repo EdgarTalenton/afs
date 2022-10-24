@@ -20,8 +20,12 @@ nav ul li {
     font-size: 15px;
     color: #4D4D4D;
 }
+nav ul li:hover {
+    color: #18468A
+}
 .fa-linkedin {
     font-size: 24px;
+    color: #4D4D4D;
 }
 nav {
     display: flex;

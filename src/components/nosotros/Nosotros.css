@@ -15,3 +15,123 @@
 .parrafo {
     margin: 30px 0px;
 }
+/* Socios */
+.sociosImg {
+    margin-top: 30px;
+}
+.SociosBoxImg {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.SociosBoxImg img {
+    border: 1px solid #4D4D4D;
+}
+.SociosBoxImg h3 {
+    font-size: 16px;
+    margin-top: 10px !important;
+    color: #4D4D4D;
+    font-weight: 600;
+}
+.SociosBoxImg p {
+    color: #C0C0C0;
+}
+.modalSociosOpen {
+    position: relative;
+    padding: 30px 50px;
+}
+.modalSociosOpen .btn-close {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.modalSociosOpen h2 {
+    color: #18468A;
+    font-weight: 600;
+}
+.subttSocios {
+    color: #C0C0C0;
+    font-weight: 600;
+}
+.sociosModalDescripcion {
+    color: #4D4D4D;
+    font-weight: 400;
+    font-size: 14px;
+}
+.modalSociosOpen img, .boxColaboradores img {
+    border: 1px solid #4D4D4D;
+}
+/*colaboradores*/
+.boxColaboradores {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.fondoColaboradores {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40.39%, rgba(0, 0, 0, 0.3) 67.4%), #D9D9D9;
+    mix-blend-mode: multiply;
+    display: none;
+    
+}
+.boxColaboradores h5 {
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    display: none;
+}
+.boxColaboradores:hover > .fondoColaboradores, .boxColaboradores:hover > h5 {
+    display: block;
+}
+.subSubColaboradores {
+    color: #18468A;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.boxConsultores {
+    position: relative;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.textConsultores {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+/* compotencia */
+.competenciaBox {
+    background: #18468A;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+.competenciaBox h2 {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.listaCompetencia {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.listaCompetencia li {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
