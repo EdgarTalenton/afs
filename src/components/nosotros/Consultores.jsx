@@ -127,11 +127,11 @@ GESTORÍAS
                 </div>
             </div>
             <hr className="mb-0" />
-            <div className="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div className="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel">
                 <div className="modal-dialog modal-dialog-centered modal-md">
                     <div className="modal-content">
                         <div className="modalSociosOpen modal-body row">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             <div className="col-md-4">
                                 <img src={ImgConsultores} className="w-100" alt="" />
                             </div>

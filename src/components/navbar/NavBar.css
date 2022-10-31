@@ -27,8 +27,15 @@ nav ul li:hover {
     font-size: 24px;
     color: #4D4D4D;
 }
+.fa-linkedin:hover {
+    color: #18468A
+}
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+nav ul li .active {
+    color: #18468A;
+    font-weight: 600;
 }

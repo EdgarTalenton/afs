@@ -50,11 +50,11 @@ const Socios = () => {
                 </div>
             </div>
             <hr className='mb-0' />
-            <div className="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div className="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel">
                 <div className="modal-dialog modal-dialog-centered modal-lg">
                     <div className="modal-content">
                         <div className="modalSociosOpen modal-body row">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             <div className="col-md-8">
                                 <h2 className="m-0">Arq. Liliana Font</h2>
                                 <p className="subttSocios">Socia</p>

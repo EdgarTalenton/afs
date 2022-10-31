@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import logo from '../../utils/img/logo.png';
 import './NavBar.css';
 const NavBar = () => {
@@ -12,12 +12,12 @@ const NavBar = () => {
                         </div>
                         <nav>
                             <ul>
-                                <li><Link to='/nosotros'>Nosotros</Link></li>
-                                <li>Proyectos</li>
-                                <li>Novedades</li>
-                                <li>Contacto</li>
+                                <li><NavLink to='/nosotros' className={({isActive}) => (isActive ? "active" : '')}>Nosotros</NavLink></li>
+                                <li><NavLink to='/proyectos' className={({isActive}) => (isActive ? "active" : '')}>Proyectos</NavLink></li>
+                                <li><NavLink to='/novedades' className={({isActive}) => (isActive ? "active" : '')}>Novedades</NavLink></li>
+                                <li><NavLink to='/contacto' className={({isActive}) => (isActive ? "active" : '')}>Contacto</NavLink></li>
                             </ul>
-                            <i className="fab fa-linkedin"></i>
+                            <a href="" target="_blank"><i className="fab fa-linkedin"></i></a>
                         </nav>
                     </div>
                 </div>

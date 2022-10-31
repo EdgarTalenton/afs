@@ -27,8 +27,7 @@ const Home = () => {
                     <div className="carousel-item active">
                         <img src={slider1} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Más de 40 años en el desarrollo <br />
-de emprendimientos para la salud.</h5>
+                            <h5>Más de 40 años en el desarrollo <br /> de emprendimientos para la salud.</h5>
                         </div>
                     </div>
                     <div className="carousel-item">
