@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/afs/static/css/main.fc489064.css",
-    "main.js": "/afs/static/js/main.3afd5ada.js",
+    "main.css": "/afs/static/css/main.3efbca64.css",
+    "main.js": "/afs/static/js/main.dbda215c.js",
     "static/js/787.28cb0dcd.chunk.js": "/afs/static/js/787.28cb0dcd.chunk.js",
+    "static/media/MtajwDmw.jpg": "/afs/static/media/MtajwDmw.8b6da2be76c1b84cc9fd.jpg",
     "static/media/boton2.png": "/afs/static/media/boton2.77076b6018698cad62b7.png",
     "static/media/1-UP-San-Martin-S.jpg": "/afs/static/media/1-UP-San-Martin-S.fc9c8460f5f702102061.jpg",
     "static/media/3-Finochietto--Acceso-Cordoba-S.jpg": "/afs/static/media/3-Finochietto--Acceso-Cordoba-S.eeed419dbaab9333e530.jpg",
@@ -15,12 +16,12 @@
     "static/media/boton3.jpeg": "/afs/static/media/boton3.1efe23ebe8536be32b3a.jpeg",
     "static/media/consultores.png": "/afs/static/media/consultores.02899a90b13c9f10452a.png",
     "index.html": "/afs/index.html",
-    "main.fc489064.css.map": "/afs/static/css/main.fc489064.css.map",
-    "main.3afd5ada.js.map": "/afs/static/js/main.3afd5ada.js.map",
+    "main.3efbca64.css.map": "/afs/static/css/main.3efbca64.css.map",
+    "main.dbda215c.js.map": "/afs/static/js/main.dbda215c.js.map",
     "787.28cb0dcd.chunk.js.map": "/afs/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc489064.css",
-    "static/js/main.3afd5ada.js"
+    "static/css/main.3efbca64.css",
+    "static/js/main.dbda215c.js"
   ]
 }
