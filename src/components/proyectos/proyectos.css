@@ -1,0 +1,145 @@
+.imgGaleriaProyectos {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.sl-grid-body {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sl-grid-cell {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 25px;
+}
+.sl-grid-thumbnail-container {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+.thumbnail-image--loaded {
+    width: 250px;
+    height: 250px;
+    border: #e6e8eb;
+    border-width: 1px;
+    border-style: solid;
+}
+.sl-grid-thumbnail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sl-grid-thumbnail-container .degradeBackground, .boxTextProyectos {
+    display: none;
+}
+.boxTextProyectos {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: #fff;
+}
+.boxTextProyectos h2 {
+    font-size: 15px;
+}
+.boxTextProyectos p {
+    font-size: 12px;
+}
+.sl-grid-thumbnail-container:hover > .degradeBackground, .sl-grid-thumbnail-container:hover > .boxTextProyectos{
+    display: block;
+}
+.nav-proyectos-list .nav-link {
+    border-radius: 0px !important;
+    background: #A9A9A9;
+    color: #fff;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.nav-proyectos-list .active {
+    background: #18468A !important;
+    color: #fff;
+    font-weight: 600;
+}
+.box-lista-trabajos {
+    height: 500px;
+    border: 1px solid #c1c1c1;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.box-lista-trabajos ul {
+    list-style: none;
+    padding: 0;
+}
+.box-lista-trabajos li {
+    padding: 2px;
+    padding-bottom: none;
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.box-lista-trabajos li b {
+    text-transform: uppercase;
+    color: #05a3e8;
+}
+.box-lista-trabajos li br {
+    display: none;
+}
+.box-lista-trabajos::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.3);
+    background-color: #ffff;
+}
+.box-lista-trabajos::-webkit-scrollbar {
+    width: 14px;
+    height: 18px;
+}
+.box-lista-trabajos::-webkit-scrollbar-thumb {
+    height: 100px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    -webkit-border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05),
+        inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+.box-lista-trabajos::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
+.box-lista-trabajos::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+.contentProyectosList {
+    background: #F4F4F4;
+}
+.box-lista-trabajos h2 {
+    color: #18468A;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.box-lista h3 {
+    color: #18468A;
+    font-size: 18px;
+    margin: 0;
+}
+.box-lista p {
+    color: #000000;
+    margin: 0;
+    font-weight: 400;
+}
+/*Poryecto*/
+.campoTextoProyecto {
+    margin-top: 30px;
+    color: #4D4D4D;
+}
+.campoTextoProyecto h1 {
+    font-size: 22px;
+}
+.campoTextoProyecto h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}

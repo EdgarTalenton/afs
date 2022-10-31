@@ -1,0 +1,14 @@
+.boxNovedades {
+    margin: 50px 0px;
+    color: #4D4D4D;
+}
+.boxNovedades h2 {
+    font-size: 24px;
+}
+.boxNovedades h6 {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.boxNovedades p {
+    font-size: 12px;
+}
